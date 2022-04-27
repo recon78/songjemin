@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled{
+            background: blue;
+            color: white;
+        }
+        input:disabled{
+            background: black;
+        }
+        input:focus{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- 입력할수 있는 상태 -->
+    <h2>enabled</h1>
+    <p>
+        <input type="text"/>
+    </p>
+    <!-- 입력할 수 없는상태 -->
+    <h2>disabled</h1>
+    <p>
+        <input disabled="disabled"/>
+    </p>
+    
+</body>
+</html>
